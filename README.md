@@ -8,15 +8,17 @@ Identify open ports and services on a vulnerable machine.
 
 Target :
 Metasploitable 2
+IP - 192.168.58.132
+
 
 Tool :
 Nmap
 
 Commands Used :
-nmap target-ip
-nmap -sV target-ip
-nmap -O target-ip
-nmap -A target-ip
+nmap 192.168.58.132
+nmap -sV 192.168.58.132
+nmap -O 192.168.58.132
+nmap -A 192.168.58.132
 
 Results :
 Multiple open ports discovered including FTP, SSH, Telnet, HTTP, and MySQL.
