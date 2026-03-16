@@ -1,0 +1,23 @@
+Project: Network Scanning using Nmap
+
+Objective :
+Identify open ports and services on a vulnerable machine.
+
+Target :
+Metasploitable 2
+IP - 192.168.58.132
+
+Tool :
+Nmap
+
+Commands Used :
+nmap 192.168.58.132  -> for basic scan of ip
+nmap -sV 192.168.58.132 -> for service version detection of ip
+nmap -O 192.168.58.132 -> for os detection of ip
+nmap -A 192.168.58.132 -> for advanced scan of ip
+
+Results :
+Multiple open ports discovered including FTP, SSH, Telnet, HTTP, and MySQL.
+
+Conclusion :
+The scan revealed several exposed services which could be further analyzed for vulnerabilities.
